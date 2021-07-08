@@ -1,0 +1,14 @@
+C:\Users\Janelle\source\repos\thesis\thesis\bin\Debug\thesis.exe.config
+C:\Users\Janelle\source\repos\thesis\thesis\bin\Debug\thesis.exe
+C:\Users\Janelle\source\repos\thesis\thesis\bin\Debug\thesis.pdb
+C:\Users\Janelle\source\repos\thesis\thesis\bin\Debug\thesis.xml
+C:\Users\Janelle\source\repos\thesis\thesis\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.vbprojAssemblyReference.cache
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.Form1.resources
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.Resources.resources
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.vbproj.GenerateResource.cache
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.vbproj.CoreCompileInputs.cache
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.vbproj.CopyComplete
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.exe
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.xml
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.pdb
