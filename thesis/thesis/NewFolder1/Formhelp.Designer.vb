@@ -22,9 +22,16 @@ Partial Class Formhelp
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'Formhelp
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Text = "Formhelp"
+        Me.Name = "Formhelp"
+        Me.Text = "HELP"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class

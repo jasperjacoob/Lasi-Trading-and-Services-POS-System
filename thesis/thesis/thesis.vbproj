@@ -83,52 +83,52 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAccounts.Designer.vb">
+    <Compile Include="NewFolder1\FormAccounts.Designer.vb">
       <DependentUpon>FormAccounts.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormAccounts.vb">
+    <Compile Include="NewFolder1\FormAccounts.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormChangeUser.Designer.vb">
+    <Compile Include="NewFolder1\FormChangeUser.Designer.vb">
       <DependentUpon>FormChangeUser.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormChangeUser.vb">
+    <Compile Include="NewFolder1\FormChangeUser.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDatabase.Designer.vb">
+    <Compile Include="NewFolder1\FormDatabase.Designer.vb">
       <DependentUpon>FormDatabase.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormDatabase.vb">
+    <Compile Include="NewFolder1\FormDatabase.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formhelp.Designer.vb">
+    <Compile Include="NewFolder1\Formhelp.Designer.vb">
       <DependentUpon>Formhelp.vb</DependentUpon>
     </Compile>
-    <Compile Include="Formhelp.vb">
+    <Compile Include="NewFolder1\Formhelp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormItems.Designer.vb">
+    <Compile Include="NewFolder1\FormItems.Designer.vb">
       <DependentUpon>FormItems.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormItems.vb">
+    <Compile Include="NewFolder1\FormItems.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormLogManagervb.Designer.vb">
-      <DependentUpon>FormLogManagervb.vb</DependentUpon>
+    <Compile Include="NewFolder1\FormLogManager.Designer.vb">
+      <DependentUpon>FormLogManager.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormLogManagervb.vb">
+    <Compile Include="NewFolder1\FormLogManager.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSales.Designer.vb">
+    <Compile Include="NewFolder1\FormSales.Designer.vb">
       <DependentUpon>FormSales.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormSales.vb">
+    <Compile Include="NewFolder1\FormSales.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormStocks.Designer.vb">
+    <Compile Include="NewFolder1\FormStocks.Designer.vb">
       <DependentUpon>FormStocks.vb</DependentUpon>
     </Compile>
-    <Compile Include="FormStocks.vb">
+    <Compile Include="NewFolder1\FormStocks.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -156,6 +156,30 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\FormAccounts.resx">
+      <DependentUpon>FormAccounts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\FormChangeUser.resx">
+      <DependentUpon>FormChangeUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\FormDatabase.resx">
+      <DependentUpon>FormDatabase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\Formhelp.resx">
+      <DependentUpon>Formhelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\FormItems.resx">
+      <DependentUpon>FormItems.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\FormLogManager.resx">
+      <DependentUpon>FormLogManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\FormSales.resx">
+      <DependentUpon>FormSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFolder1\FormStocks.resx">
+      <DependentUpon>FormStocks.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

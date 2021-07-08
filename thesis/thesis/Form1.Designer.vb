@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.PanelMenu = New System.Windows.Forms.Panel()
@@ -34,16 +34,23 @@ Partial Class Form1
         Me.IconButton2 = New FontAwesome.Sharp.IconButton()
         Me.IconButton1 = New FontAwesome.Sharp.IconButton()
         Me.PanelLogo = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.imgHome = New System.Windows.Forms.PictureBox()
         Me.PanelTitleBar = New System.Windows.Forms.Panel()
-        Me.IconCurrentForm = New FontAwesome.Sharp.IconPictureBox()
+        Me.btnMax = New FontAwesome.Sharp.IconButton()
+        Me.btnMin = New FontAwesome.Sharp.IconButton()
         Me.lblFormTitle = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.IconCurrentForm = New FontAwesome.Sharp.IconPictureBox()
+        Me.PanelDesktop = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnExit = New FontAwesome.Sharp.IconButton()
         Me.PanelMenu.SuspendLayout()
         Me.PanelLogo.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imgHome, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelTitleBar.SuspendLayout()
         CType(Me.IconCurrentForm, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PanelDesktop.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PanelMenu
@@ -256,25 +263,28 @@ Partial Class Form1
         '
         'PanelLogo
         '
-        Me.PanelLogo.Controls.Add(Me.PictureBox1)
+        Me.PanelLogo.Controls.Add(Me.imgHome)
         Me.PanelLogo.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelLogo.Location = New System.Drawing.Point(0, 0)
         Me.PanelLogo.Name = "PanelLogo"
         Me.PanelLogo.Size = New System.Drawing.Size(220, 140)
         Me.PanelLogo.TabIndex = 0
         '
-        'PictureBox1
+        'imgHome
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(25, 3)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(162, 137)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.imgHome.Image = CType(resources.GetObject("imgHome.Image"), System.Drawing.Image)
+        Me.imgHome.Location = New System.Drawing.Point(25, 3)
+        Me.imgHome.Name = "imgHome"
+        Me.imgHome.Size = New System.Drawing.Size(162, 137)
+        Me.imgHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.imgHome.TabIndex = 0
+        Me.imgHome.TabStop = False
         '
         'PanelTitleBar
         '
+        Me.PanelTitleBar.Controls.Add(Me.btnExit)
+        Me.PanelTitleBar.Controls.Add(Me.btnMax)
+        Me.PanelTitleBar.Controls.Add(Me.btnMin)
         Me.PanelTitleBar.Controls.Add(Me.lblFormTitle)
         Me.PanelTitleBar.Controls.Add(Me.IconCurrentForm)
         Me.PanelTitleBar.Dock = System.Windows.Forms.DockStyle.Top
@@ -282,6 +292,46 @@ Partial Class Form1
         Me.PanelTitleBar.Name = "PanelTitleBar"
         Me.PanelTitleBar.Size = New System.Drawing.Size(1165, 70)
         Me.PanelTitleBar.TabIndex = 1
+        '
+        'btnMax
+        '
+        Me.btnMax.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnMax.FlatAppearance.BorderSize = 0
+        Me.btnMax.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMax.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize
+        Me.btnMax.IconColor = System.Drawing.Color.Black
+        Me.btnMax.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.btnMax.IconSize = 30
+        Me.btnMax.Location = New System.Drawing.Point(1077, 8)
+        Me.btnMax.Name = "btnMax"
+        Me.btnMax.Size = New System.Drawing.Size(34, 34)
+        Me.btnMax.TabIndex = 3
+        Me.btnMax.UseVisualStyleBackColor = True
+        '
+        'btnMin
+        '
+        Me.btnMin.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnMin.FlatAppearance.BorderSize = 0
+        Me.btnMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMin.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize
+        Me.btnMin.IconColor = System.Drawing.Color.Black
+        Me.btnMin.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.btnMin.IconSize = 30
+        Me.btnMin.Location = New System.Drawing.Point(1034, 12)
+        Me.btnMin.Name = "btnMin"
+        Me.btnMin.Size = New System.Drawing.Size(37, 30)
+        Me.btnMin.TabIndex = 2
+        Me.btnMin.UseVisualStyleBackColor = True
+        '
+        'lblFormTitle
+        '
+        Me.lblFormTitle.AutoSize = True
+        Me.lblFormTitle.ForeColor = System.Drawing.Color.Gainsboro
+        Me.lblFormTitle.Location = New System.Drawing.Point(73, 25)
+        Me.lblFormTitle.Name = "lblFormTitle"
+        Me.lblFormTitle.Size = New System.Drawing.Size(45, 17)
+        Me.lblFormTitle.TabIndex = 1
+        Me.lblFormTitle.Text = "Home"
         '
         'IconCurrentForm
         '
@@ -297,26 +347,55 @@ Partial Class Form1
         Me.IconCurrentForm.TabIndex = 0
         Me.IconCurrentForm.TabStop = False
         '
-        'lblFormTitle
+        'PanelDesktop
         '
-        Me.lblFormTitle.AutoSize = True
-        Me.lblFormTitle.ForeColor = System.Drawing.Color.Gainsboro
-        Me.lblFormTitle.Location = New System.Drawing.Point(73, 25)
-        Me.lblFormTitle.Name = "lblFormTitle"
-        Me.lblFormTitle.Size = New System.Drawing.Size(45, 17)
-        Me.lblFormTitle.TabIndex = 1
-        Me.lblFormTitle.Text = "Home"
+        Me.PanelDesktop.BackColor = System.Drawing.Color.Honeydew
+        Me.PanelDesktop.BackgroundImage = CType(resources.GetObject("PanelDesktop.BackgroundImage"), System.Drawing.Image)
+        Me.PanelDesktop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PanelDesktop.Controls.Add(Me.Label1)
+        Me.PanelDesktop.Controls.Add(Me.PictureBox1)
+        Me.PanelDesktop.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PanelDesktop.Location = New System.Drawing.Point(220, 70)
+        Me.PanelDesktop.Name = "PanelDesktop"
+        Me.PanelDesktop.Size = New System.Drawing.Size(1165, 616)
+        Me.PanelDesktop.TabIndex = 2
         '
-        'Panel1
+        'Label1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.Honeydew
-        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
-        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(220, 70)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1165, 616)
-        Me.Panel1.TabIndex = 2
+        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Myriad Pro", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(369, 255)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(386, 37)
+        Me.Label1.TabIndex = 2
+        Me.Label1.Text = "Sales and Inventory System"
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(451, 6)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(210, 213)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
+        '
+        'btnExit
+        '
+        Me.btnExit.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnExit.FlatAppearance.BorderSize = 0
+        Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnExit.IconChar = FontAwesome.Sharp.IconChar.WindowClose
+        Me.btnExit.IconColor = System.Drawing.Color.Black
+        Me.btnExit.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.btnExit.IconSize = 38
+        Me.btnExit.Location = New System.Drawing.Point(1117, 8)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(39, 37)
+        Me.btnExit.TabIndex = 4
+        Me.btnExit.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -326,19 +405,22 @@ Partial Class Form1
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1385, 686)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.PanelDesktop)
         Me.Controls.Add(Me.PanelTitleBar)
         Me.Controls.Add(Me.PanelMenu)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.PanelMenu.ResumeLayout(False)
         Me.PanelLogo.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imgHome, System.ComponentModel.ISupportInitialize).EndInit()
         Me.PanelTitleBar.ResumeLayout(False)
         Me.PanelTitleBar.PerformLayout()
         CType(Me.IconCurrentForm, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.PanelDesktop.ResumeLayout(False)
+        Me.PanelDesktop.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -354,9 +436,14 @@ Partial Class Form1
     Friend WithEvents IconButton2 As FontAwesome.Sharp.IconButton
     Friend WithEvents IconButton1 As FontAwesome.Sharp.IconButton
     Friend WithEvents PanelLogo As Panel
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents imgHome As PictureBox
     Friend WithEvents PanelTitleBar As Panel
     Friend WithEvents lblFormTitle As Label
     Friend WithEvents IconCurrentForm As FontAwesome.Sharp.IconPictureBox
-    Friend WithEvents Panel1 As Panel
+    Friend WithEvents PanelDesktop As Panel
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents btnMin As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnMax As FontAwesome.Sharp.IconButton
+    Friend WithEvents btnExit As FontAwesome.Sharp.IconButton
 End Class

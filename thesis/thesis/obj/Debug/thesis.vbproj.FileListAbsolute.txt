@@ -12,3 +12,11 @@ C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.vbproj.CopyComplete
 C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.exe
 C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.xml
 C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.pdb
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.FormAccounts.resources
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.FormChangeUser.resources
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.FormDatabase.resources
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.Formhelp.resources
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.FormItems.resources
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.FormLogManager.resources
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.FormSales.resources
+C:\Users\Janelle\source\repos\thesis\thesis\obj\Debug\thesis.FormStocks.resources
